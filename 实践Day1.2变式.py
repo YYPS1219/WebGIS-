@@ -1,0 +1,10 @@
+x1=input("请输入点A横坐标：")
+x2=input("请输入点A纵坐标：")
+y1=input("请输入点B横坐标：")
+y2=input("请输入点B纵坐标：")
+x11=float(x1)
+x22=float(x2)
+y11=float(y1)
+y22=float(y2)
+distance=((x22-x11)**2+(y22-y11)**2)**0.5
+print(f"两点之间的距离为：{distance:.2f}°")
